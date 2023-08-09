@@ -1,3 +1,10 @@
+set clipboard+=unnamedplus
+set number
+set mouse=a
+
+hi Pmenu ctermfg=black ctermbg=gray  guibg=#444444
+hi PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
+
 call plug#begin()
 Plug 'ncm2/ncm2'
 Plug 'SirVer/ultisnips'
@@ -19,14 +26,6 @@ call plug#end()
 
 
 lua require('Comment').setup()
-
-
-set clipboard+=unnamedplus
-set number
-set mouse=a
-
-hi Pmenu ctermfg=black ctermbg=gray  guibg=#444444
-hi PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
 
 
 let g:slime_target = "zellij"
