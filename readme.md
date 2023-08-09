@@ -19,3 +19,11 @@ sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 nvim
 
 ```
+
+## pull the config
+
+```bash
+cd ~/.config
+git clone https://github.com/wybert/nvim.git
+```
+
