@@ -1,3 +1,9 @@
+# Important
+
+Use slime with tmux/zellij and neovim.
+
+It works well in linux but when in windows it seems very slow. But in windows or mac vs code will be a better choice. This only works on some servers if I could not use vs code like somehow my remote ssh server in vscode is not working on my stupid windows machine.
+
 ## Install neovim
 
 
