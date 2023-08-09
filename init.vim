@@ -27,6 +27,7 @@ call plug#end()
 
 lua require('Comment').setup()
 
+set shell=/bin/sh " set default shell
 
 let g:slime_target = "zellij"
 let g:slime_default_config = {"session_id": "current", "relative_pane": "right"}
