@@ -11,6 +11,7 @@ Plug 'numToStr/Comment.nvim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 " Plug 'JuliaEditorSupport/julia-vim'
 " For neovim
+Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
 
