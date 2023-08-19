@@ -41,6 +41,12 @@ git clone https://github.com/wybert/nvim.git
 rm -rf ~/.config/nvim/.git
 ```
 
+## Dependacy
+
+1. ripgrep `sudo apt-get install ripgrep`
+2. fd `sudo apt install fd-find`
+3. 
+
 ## install vim-plug
 
 ```bash
