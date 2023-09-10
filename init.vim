@@ -9,6 +9,7 @@ call plug#begin()
 Plug 'jpalardy/vim-slime'
 Plug 'numToStr/Comment.nvim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'github/copilot.vim'
 " Plug 'JuliaEditorSupport/julia-vim'
 " For neovim
 Plug 'nvim-lua/plenary.nvim'
