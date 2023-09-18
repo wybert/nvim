@@ -33,5 +33,6 @@ let g:slime_default_config = {"session_id": "current", "relative_pane": "right"}
 " If you use tmux, please use the following configuration
 " let g:slime_target = "tmux"
 " let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
+let g:copilot_filetypes = {'markdown': v:true}
 
 let g:slime_cell_delimiter = "#%%"
