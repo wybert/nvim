@@ -14,6 +14,7 @@ Plug 'github/copilot.vim'
 " For neovim
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'preservim/nerdtree'
 
 
 " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
