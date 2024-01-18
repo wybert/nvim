@@ -88,6 +88,16 @@ nvim
 :Copilot
 ```
 
+## How to use
+
+1. multi selection, please refer [mg979/vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+
+Select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code)
+
+2. comment and u comment use gcc for block or gc for single line
+
+3. 
+
 
 
 
