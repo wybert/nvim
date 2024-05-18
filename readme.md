@@ -66,6 +66,9 @@ Select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code)
 
 For the neovim, it is a little bit different.
 
+<details>
+  <summary>For Neovim!</summary>
+
 ## For Neovim
 
 ### Install neovim
@@ -138,3 +141,5 @@ nvim
 nvim
 :Copilot
 ```
+
+</details>
