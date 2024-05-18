@@ -21,7 +21,7 @@ brew install vim node
 or conda,
 
 ```bash
-conda install -c conda-forge vim nodejs
+conda install -c conda-forge vim nodejs curl -y
 ```
 
 ## Install vim-plug
