@@ -7,13 +7,10 @@ set mouse=a
 
 call plug#begin()
 Plug 'jpalardy/vim-slime'
-Plug 'numToStr/Comment.nvim'
+Plug 'tpope/vim-commentary'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'github/copilot.vim'
 " Plug 'JuliaEditorSupport/julia-vim'
-" For neovim
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim'
 " Plug 'preservim/nerdtree'
 
 
@@ -24,9 +21,6 @@ Plug 'klafyvel/vim-slime-cells'
 
 call plug#end()
 
-
-lua require('Comment').setup()
-
 set shell=/bin/sh " set default shell
 
 " let g:slime_target = "zellij"
@@ -35,5 +29,7 @@ set shell=/bin/sh " set default shell
 let g:slime_target = "tmux"
 let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
 let g:copilot_filetypes = {'markdown': v:true, "julia": v:true, "python": v:true, "r": v:true, "sh": v:true, "bash": v:true, "zsh": v:true}
+
+filetype plugin indent on
 
 let g:slime_cell_delimiter = "#%%"
