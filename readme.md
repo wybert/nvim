@@ -35,7 +35,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ```bash
 curl -fLo ~/.vimrc --create-dirs \
-    https://raw.githubusercontent.com/wybert/nvim/main/init.vim
+    https://raw.githubusercontent.com/wybert/nvim/main/.vimrc
 ```
 
 ## Install plugins
